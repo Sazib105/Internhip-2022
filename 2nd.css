@@ -1,0 +1,33 @@
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    color: #fff;
+}
+.common-span{
+    background-color: blue;
+    padding: 10px;
+    margin: 2px;
+    height: 60px;
+    font-size: 25px;
+}
+.span{
+    flex-grow: 1;
+}
+
+
+.sp-span:nth-of-type(1){
+    flex-grow: 5;
+}
+.sp-span:nth-of-type(2){
+    flex-grow: 1;
+}
+.sp-span:nth-of-type(3){
+    flex-grow: 1;
+}
